@@ -1,0 +1,10 @@
+.stick {
+    width: 60px;
+    height: 6px;
+    top: 50%;
+    background: black;
+    position: absolute;
+    transform-origin:100%; /* transforms from the right-most point, 0% would be left-most */
+    transition: all 0.05s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1)
+}
