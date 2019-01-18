@@ -1,0 +1,25 @@
+{
+  "name": "js30-02-clocks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adamroddick/js30-02-clocks.git"
+  },
+  "author": "Adam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adamroddick/js30-02-clocks/issues"
+  },
+  "homepage": "https://github.com/adamroddick/js30-02-clocks#readme",
+  "dependencies": {
+    "express": "4.16.4",
+    "nodemon": "1.18.9",
+    "path": "0.12.7"
+  }
+}
